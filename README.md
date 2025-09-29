@@ -1,73 +1,28 @@
-# Welcome to your Lovable project
+# AI-Powered Expense Optimizer
 
-## Project info
+## Project Overview
+AI-Powered Expense Optimizer is a full-stack web application that helps users track, categorize, and optimize their expenses. The app analyzes spending patterns using AI/ML algorithms and provides personalized savings suggestions, interactive charts, and dashboards to improve financial management.
 
-**URL**: https://lovable.dev/projects/36765630-c95f-4fe9-b53e-c1e043a5599f
+---
 
-## How can I edit this code?
+## Features
+- User registration and login with secure authentication (JWT)
+- Add, edit, delete, and categorize expenses
+- Automatic expense categorization using AI
+- Personalized savings recommendations
+- Interactive charts and dashboards to visualize spending
+- Notifications and alerts for overspending
+- Responsive design for desktop and mobile
 
-There are several ways of editing your application.
+---
 
-**Use Lovable**
+## Tech Stack
+- **Frontend:** React.js, Tailwind CSS, React Router, Context API/Redux
+- **Backend:** Node.js, Express.js, REST APIs, JWT authentication
+- **Database:** MongoDB
+- **AI/ML Module:** Python (pandas, scikit-learn) for expense analysis
+- **Deployment:** Vercel / Netlify (frontend), Heroku (backend)
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/36765630-c95f-4fe9-b53e-c1e043a5599f) and start prompting.
+---
 
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/36765630-c95f-4fe9-b53e-c1e043a5599f) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+## Project Structure
